@@ -67,3 +67,19 @@ body {
 .container .cards:last-child .learn-more {
   color: var(--Very-dark-cyan);
 }
+@media only screen and (min-width: 1440px) {
+  body {
+    padding: 150px 200px;
+  }
+  .container {
+    display: flex;
+  }
+  .container .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container .cards:last-child .description {
+    margin-bottom: 60px;
+  }
+}
